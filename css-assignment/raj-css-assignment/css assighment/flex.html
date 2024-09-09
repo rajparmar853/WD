@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex HTML</title>
+    <style>
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px;
+            margin-top: 50px;
+        }
+
+        .one {
+            width: 250px;
+            height: auto;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            padding: 0px 20px;
+            padding-bottom: 120px;
+        }
+
+        .one>p {
+            text-align: start;
+        }
+
+        .two {
+            width: 250px;
+            height: auto;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-direction: column;
+            background-color: aqua;
+            padding: 0px 20px;
+            padding-bottom: 120px;
+        }
+
+        .two>p {
+            text-align: start;
+        }
+
+        .three {
+            width: 360px;
+            height: auto;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: start;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        .para>p {
+            text-align: start;
+        }
+
+        .blush>button {
+            height: 25px;
+            width: 330px;
+        }
+
+        h3 {
+            font-family: sans-serif;
+            padding-left: 10px;
+        }
+
+        p {
+            padding-left: 10px;
+            text-align: center;
+        }
+
+        .all-btns>button {
+            height: 25px;
+            width: 80px;
+        }
+    </style>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="one">
+            <h3>First Article</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui delectus repellat maiores explicabo
+                praesentium, fugit voluptates quod quo optio aperiam quae harum assumenda quia nesciunt ipsam officia
+                corporis, laudantium alias!</p>
+        </div>
+
+        <div class="two">
+            <h3>Second Article</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti praesentium hic esse commodi nostrum
+                ipsam beatae iure dolores assumenda tempora, voluptatem sed animi fugit autem ea, totam voluptatibus
+                mollitia iste.
+            </p>
+        </div>
+
+        <div class="three">
+            <div class="all-btns">
+                <button>Smile</button>
+                <button>Laugh</button>
+                <button>Wink</button>
+                <button>Shrug</button>
+            </div>
+            <div class="blush">
+                <button id="blush">Blush</button><br>
+            </div>
+
+            <div class="para">
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, eius labore mollitia explicabo vero
+                    quos unde culpa nobis debitis quam voluptatem consequuntur molestias fugit ipsam repudiandae placeat
+                    nisi dolore veniam maxime ea aspernatur</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, eius labore mollitia explicabo vero
+                    quos unde culpa nobis debitis quam voluptatem consequuntur molestias fugit ipsam repudiandae placeat
+                    nisi dolore veniam maxime ea aspernatur</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

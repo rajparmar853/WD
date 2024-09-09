@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden !important;
+  }
+  .header {
+    height: auto;
+    width: auto;
+    padding: 15px 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .menu {
+    height: auto;
+    width: auto;
+    background-color: red;
+    padding: 15px 550px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .menu2 {
+    display: none;
+    width: 40%;
+    height: auto;
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+  }
+  .hero-section {
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+.img-extra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  .main-third {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    overflow: hidden !important;
+  }
+  .main {
+    height: 61vh;
+    width: 100%;
+    background-color:rgb(0, 0, 85);
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .image {
+    height: auto;
+    width: auto;
+    padding: 86px 81px;
+    background-color:rgba(0, 0, 255, 0.637);
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .extra {
+    height: auto;
+    width: auto;
+    padding: 81px 80px;
+    background-color: rgba(0, 128, 0, 0.801);
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold
+  }
+  .banner {
+    height: auto;
+    width: 100%;
+    background-color: khaki;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .banner2 {
+    height: auto;
+    width: 100%;
+    background-color: rgb(186, 141, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .banner2 {
+    display: none;
+  }
+  /* media Queries */
+  
+  /* ----- desktop and laptops -----  */
+  
+  /* teblets and ipads  */
+  
+  /* mobile phones  */
+  
+  @media (width > 600px) and (width < 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .header {
+      width: 768px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+    }
+    .menu {
+      display: none;
+      background-color: red;
+    }
+  
+    .main-third {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .img-extra {
+      display: flex;
+      width: 100%;
+      order: 3;
+    }
+  
+    .image {
+      width: 100%;
+      padding: 0;
+    }
+    .extra {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .main-contain {
+      display: flex;
+    }
+    .main {
+      width: 100vw;
+    }
+    .banner2 {
+      display: flex;
+      background-color: rgb(186, 141, 57);
+    }
+    .banner {
+      display: none;
+    }
+    .menu2 {
+      display: block;
+      background-color: red;
+    }
+  }
+  
+  @media (width < 600px) {
+    .menu {
+      display: block;
+    }
+  
+    .menu2 {
+      display: none;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .img-extra {
+      flex-direction: column;
+    }
+    .main-third {
+      flex-direction: column;
+    }
+  
+    .header {
+      width: 100vw;
+    }
+    .image {
+      width: 100vw;
+      text-align: center;
+      padding: 0;
+    }
+    .extra {
+      width: 100vw;
+      text-align: center;
+      padding: 0;
+    }
+  }

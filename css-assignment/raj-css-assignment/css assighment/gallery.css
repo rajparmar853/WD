@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.section-1 {
+    height: auto;
+    width: 1050px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    border: none;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.shutter {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+#color {
+    color: orangered;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+.section-1>div {
+    height: 150px;
+}
+
+.img1 {
+    background-image: url(gallery.img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    border: none;
+}
+
+.img2 {
+    background-image: url(./gallery.img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 5/ span 2;
+    grid-row: 1;
+}
+
+.img3 {
+    background-image: url(gallery.img/img3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(gallery.img/img4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2 / span 4;
+    grid-row: 2;
+}
+
+.img5 {
+    background-image: url(gallery.img/img5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img6 {
+    background-image: url(gallery.img/img6.jpg);
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img7 {
+    background-image: url(gallery.img/img7.jpg);
+    grid-column: 4 / span 3;
+    grid-row: 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img8 {
+    background-image: url(gallery.img/img8.jpeg);
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img9 {
+    background-image: url(gallery.img/img9.jpeg);
+    grid-column: 3 / span 2;
+    grid-row: 4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img10 {
+    background-image: url(gallery.img/img10.jpeg);
+    grid-column: 5 / span 2;
+    grid-row: 4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
