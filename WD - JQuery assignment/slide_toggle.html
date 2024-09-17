@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide_Toggle HTML</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .main {
+            width: auto;
+            height: auto;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sub1 {
+            width: 1000px;
+            height: 400px;
+            background-color: rgb(255, 196, 1);
+            border-radius: 0 0 20px 20px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .allbtn {
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding-top: 20px;
+        }
+
+        .allbtn>.btn1 {
+            height: 30px;
+            width: 120px;
+            background-color: rgb(255, 196, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 22px;
+            cursor: pointer;
+        }
+
+        .btn3 {
+            height: 30px;
+            width: 120px;
+            background-color: rgb(255, 196, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 22px;
+            cursor: pointer;
+        }
+
+        .btn2 {
+            height: 30px;
+            width: 120px;
+            background-color: rgb(255, 196, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 22px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub1">Slide Toggle / Slide UP / Slide Down</div>
+    </div>
+
+    <div class="allbtn">
+        <div class="btn3">Slide Up</div>
+        <div class="btn2">Slide Down</div>
+        <div class="btn1">Slide Toggle</div>
+    </div>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('.btn3').click(function () {
+            $('.sub1').slideUp()
+        });
+
+        $('.btn2').click(function () {
+            $('.sub1').slideDown()
+        });
+
+        $('.btn1').click(function () {
+            $('.sub1').slideToggle(2000)
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Show HTML</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: auto;
+            height: 500px;
+            background-color: cadetblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            width: 250px;
+            height: 50px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        button {
+            cursor: pointer;
+            width: 100px;
+            height: 50px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            margin-right: 50px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub">
+            <input type="password" placeholder="password">
+            <button>Show</button>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $("input").attr("type") == "password"
+                ? $("input").attr("type", "text")
+                : $("input").attr("type", "password");
+
+            $(this).html() == "Show" ? $(this).html("Hide") : $(this).html("Show");
+        })
+    })
+</script>
+
+</html>
