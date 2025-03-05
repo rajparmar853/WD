@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "raj parmar",
+      "username": "raju",
+      "email": "rajparmar@gmail.com",
+      "phone": 9825462515,
+      "website": "welding.org"
+    },
+    {
+      "id": "2",
+      "name": "shubham parmar",
+      "username": "shubh",
+      "email": "shubhamparmar@gmail.com",
+      "phone": 9825462515,
+      "website": "welding.org"
+    },
+    {
+      "id": "3",
+      "name": "amit dabhi",
+      "username": "amit",
+      "email": "amitdabhir@gmail.com",
+      "phone": 9510903524,
+      "website": "design.org"
+    },
+    {
+      "id": "4",
+      "name": "parth makvana",
+      "username": "pathu",
+      "email": "parthmakvana@gmail.com",
+      "phone": 9825462515,
+      "website": "welding.org"
+    },
+    {
+      "id": "5",
+      "name": "dhruv bhaman",
+      "username": "dhurv",
+      "email": "dhruvpurohit@gmail.com",
+      "phone": 9825462515,
+      "website": "welding.org"
+    },
+    {
+      "id": "6",
+      "name": "harsh joshi",
+      "username": "harshu",
+      "email": "harshjoshi@gmail.com",
+      "phone": 9825462515,
+      "website": "webdevloper.org"
+    },
+    {
+      "id": "7",
+      "name": "utsav parmar",
+      "username": "utsav",
+      "email": "utsavparmar@gmail.com",
+      "phone": 7600353576,
+      "website": "welding.org"
+    },
+    {
+      "id": "8",
+      "name": "gautam rathod",
+      "username": "gauli",
+      "email": "gautamrathod@gmail.com",
+      "phone": 9924267208,
+      "website": "furniture.org"
+    },
+    {
+      "id": "9",
+      "name": "amit sakriya",
+      "username": "amit",
+      "email": "amitsakriya@gmail.com",
+      "phone": 9825462515,
+      "website": "camera.org"
+    },
+    {
+      "id": "10",
+      "name": "gautam thakor",
+      "username": "gautam",
+      "email": "gautamthakor@gmail.com",
+      "phone": 9825462515,
+      "website": "banck.org"
+    },
+    {
+      "id": "73f4",
+      "nmae": "",
+      "email": "amitdabhi@gmail.com",
+      "phone": "9313546266",
+      "name": "amit "
+    },
+    {
+      "id": "bc2c",
+      "nmae": "",
+      "email": "vinaychuhan@gmail.com",
+      "phone": "9510906545",
+      "name": "vinay chuhan"
+    },
+    {
+      "id": "be63",
+      "nmae": "",
+      "email": "devangjoshi@gmail.com",
+      "phone": "9825462323",
+      "name": "devang joshi"
+    }
+  ]
+}
